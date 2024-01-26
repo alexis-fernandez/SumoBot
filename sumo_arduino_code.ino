@@ -51,14 +51,8 @@ void loop()
     startup = 1;
   }
 
-  
-
   //ULTRASONIC////////////
   long duration, cm;
-  
-  
-
-  
 
   //SENSORS////////////
   
@@ -92,12 +86,7 @@ if (valLeft != HIGH && valRight != HIGH)
   
   if (cm < 50)
   {
-    //while(cm < 35) ////////////test
-    //{
-      forwards();
-      
-    //}
-    
+      forwards();    
   }
   
   else
@@ -123,12 +112,7 @@ if (valLeft != HIGH && valRight != HIGH)
     }
 
     Serial.println("counter:"+counter);
-    
-    //if (counter == 7)
-    //{
-      //forwards();
-      //counter = 0;
-    //}
+
   }
 }
 
@@ -156,18 +140,8 @@ else
     delay (5);      
   }
 }
-
-/*
+  
   //LESS than the center value --> WHITE (light) area. However, if a sensor reads MORE/GREATER than the center value --> BLACK (dark) area
-  if(valLeft == HIGH and valRight == HIGH)  //forward
-  {
-    
-  }
-*/
-  
-
-  
-
   
 }
 

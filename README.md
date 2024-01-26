@@ -10,6 +10,10 @@ This Arduino project is a fully automated sumo bot designed for competitive sumo
 - **3D Printed Chassis:** Provides a sturdy and customizable frame for the bot.
 - **Autonomous Decision-making:** The bot autonomously decides whether to avoid the arena boundary or attack other bots based on sensor inputs.
 
+## Images
+
+![Schematic](Schematic.png)
+
 ## Getting Started
 
 ### Prerequisites

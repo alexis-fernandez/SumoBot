@@ -12,7 +12,12 @@ This Arduino project is a fully automated sumo bot designed for competitive sumo
 
 ## Images
 
-![Schematic](Schematic.png)
+<div align="center">
+  <img src="CAD-Design.png" alt="CAD Design" width="48%" />
+  <img src="Internal-Parts.png" alt="Internal Parts" width="48%" />
+  <br>
+  <img src="Physical-Build.jpg" alt="Physical Build" width="96%" />
+</div>
 
 ## Getting Started
 
